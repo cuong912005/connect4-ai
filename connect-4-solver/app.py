@@ -21,6 +21,7 @@ class GameState(BaseModel):
     board: List[List[int]]  # 0 = empty, 1 = X, 2 = O
     current_player: int     # 1 or 2
     valid_moves: List[int]
+    is_new_game: bool
 
 class AIResponse(BaseModel):
     move: int

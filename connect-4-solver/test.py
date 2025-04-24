@@ -7,7 +7,7 @@ def play_game():
     while True:
         
         
-
+        
         player_move = int(input("Nhập cột (0-6): "))
         if not board.can_play(player_move):
             print("Nước đi không hợp lệ, thử lại!")

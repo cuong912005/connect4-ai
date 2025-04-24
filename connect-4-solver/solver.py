@@ -93,7 +93,7 @@ def evaluate(board):
 
 
 
-def solve(board, max_depth=10):
+def solve(board, max_depth=8):
 
     TT = LRUCache(4531985219092)
 
